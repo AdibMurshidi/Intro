@@ -133,3 +133,23 @@ The work done $W$ is positive when the system expands against an external pressu
 
 # Bibliography
 <div id="refs"></div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Distribution of Age
+
+This histogram visualizes the distribution of ages within the `bigclass` dataset.
+:::
+
+::: {.column width="50%"}
+<iframe 
+  data-src="media/plots/age_histogram.html" 
+  width="100%" 
+  height="500px" 
+  style="border:none;" 
+  scrolling="no">
+</iframe>
+:::
+::::
