@@ -153,3 +153,147 @@ This histogram visualizes the distribution of ages within the `bigclass` dataset
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 1: Control Chart for Machine 1
+This control chart visualizes the measurements from Machine 1 under specific conditions, indicating process stability over time.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine1_control_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 2: Process Capability for Machine 1
+This histogram shows the distribution of measurements for Machine 1 relative to the Upper and Lower Specification Limits (USL/LSL), alongside a fitted normal distribution.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine1_capability_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 3: Cpk Calculation for Machine 1
+The Cpk value for Machine 1 under the specified conditions is calculated to assess its process capability.
+
+```
+Machine 1 Cpk: 2.37
+```
+:::
+
+::: {.column width="50%"}
+### Slide 4: Capability Assessment for Machine 1
+Based on the calculated Cpk, the process capability of Machine 1 is:
+
+```
+The machine is capable under these conditions (Cpk >= 1.33).
+```
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 5: Control Chart for Machine 2
+This control chart visualizes the measurements from Machine 2 under specific conditions, indicating process stability over time.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine2_control_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 6: Process Capability for Machine 2
+This histogram shows the distribution of measurements for Machine 2 relative to the Upper and Lower Specification Limits (USL/LSL), alongside a fitted normal distribution.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine2_capability_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 7: Cpk Calculation for Machine 2
+The Cpk value for Machine 2 under the specified conditions is calculated to assess its process capability.
+
+```
+Machine 2 Cpk: 1.32
+```
+:::
+
+::: {.column width="50%"}
+### Slide 8: Capability Assessment for Machine 2
+Based on the calculated Cpk, the process capability of Machine 2 is:
+
+```
+The machine is NOT capable under these conditions (Cpk < 1.33).
+```
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 9: Control Chart for Machine 3
+This control chart visualizes the measurements from Machine 3 under specific conditions, indicating process stability over time.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine3_control_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 10: Process Capability for Machine 3
+This histogram shows the distribution of measurements for Machine 3 relative to the Upper and Lower Specification Limits (USL/LSL), alongside a fitted normal distribution.
+:::
+
+::: {.column width="50%"}
+<img src="media/plots/machine3_capability_chart.png" width="100%" height="500px" style="border:none;">
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 11: Cpk Calculation for Machine 3
+The Cpk value for Machine 3 under the specified conditions is calculated to assess its process capability.
+
+```
+Machine 3 Cpk: 0.81
+```
+:::
+
+::: {.column width="50%"}
+### Slide 12: Capability Assessment for Machine 3
+Based on the calculated Cpk, the process capability of Machine 3 is:
+
+```
+The machine is NOT capable under these conditions (Cpk < 1.33).
+```
+:::
+::::
