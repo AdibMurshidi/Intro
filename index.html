@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>slides</title>
+  <title>slides-with-biblio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -817,6 +817,126 @@ Capability Assessment for Machine 3</h3>
 <p>Based on the calculated Cpk, the process capability of Machine 3
 is:</p>
 <pre><code>The machine is NOT capable under these conditions (Cpk &lt; 1.33).</code></pre>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-13-t-test-distribution-curve-p100-t303">Slide 13: T-Test
+Distribution Curve (P=100, T=303)</h3>
+<p>This t-distribution curve visualizes the results of the independent
+two-sample t-test comparing Machine 1 and Machine 2 measurements under
+Pressure=100, Temperature=303. The calculated t-statistic is marked,
+along with the critical rejection regions for an alpha level of
+0.05.</p>
+</div><div class="column" style="width:50%;">
+<p><img src="media/plots/t_test_P100_T303.png" width="100%" height="500px" style="border:none;"></p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-14-t-test-results-p100-t303">Slide 14: T-Test Results
+(P=100, T=303)</h3>
+<p>This slide presents the calculated t-statistic and p-value from the
+independent two-sample t-test comparing Machine 1 and Machine 2
+measurements under Pressure=100, Temperature=303.</p>
+<pre><code>T-statistic: -8.5515
+P-value: 0.0000</code></pre>
+</div><div class="column" style="width:50%;">
+<h3 id="key-statistical-values">Key Statistical Values</h3>
+<ul>
+<li><strong>Degrees of Freedom (Welch’s):</strong> 197.53</li>
+<li><strong>Significance Level (alpha):</strong> 0.05</li>
+<li><strong>Critical t-values:</strong> (-1.97, 1.97)</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-15-is-there-a-true-difference-p100-t303">Slide 15: Is
+there a true difference? (P=100, T=303)</h3>
+<p>Based on the t-test analysis with an alpha level of 0.05, we assess
+whether there is a statistically significant difference between the
+measurements of Machine 1 and Machine 2 under these conditions.</p>
+<pre><code>Is there a true difference?: Yes</code></pre>
+</div><div class="column" style="width:50%;">
+<h3 id="conclusion-summary">Conclusion Summary</h3>
+<p>The p-value is less than the significance level (alpha = 0.05),
+indicating a statistically significant difference between the
+measurements of Machine 1 and Machine 2 under these conditions.</p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-16-t-test-distribution-curve-p300-t373">Slide 16: T-Test
+Distribution Curve (P=300, T=373)</h3>
+<p>This t-distribution curve visualizes the results of the independent
+two-sample t-test comparing Machine 1 and Machine 2 measurements under
+Pressure=300, Temperature=373. The calculated t-statistic is marked,
+along with the critical rejection regions for an alpha level of
+0.05.</p>
+</div><div class="column" style="width:50%;">
+<p><img src="media/plots/t_test_P300_T373.png" width="100%" height="500px" style="border:none;"></p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-17-t-test-results-p300-t373">Slide 17: T-Test Results
+(P=300, T=373)</h3>
+<p>This slide presents the calculated t-statistic and p-value from the
+independent two-sample t-test comparing Machine 1 and Machine 2
+measurements under Pressure=300, Temperature=373.</p>
+<pre><code>T-statistic: -1.1933
+P-value: 0.2342</code></pre>
+</div><div class="column" style="width:50%;">
+<h3 id="key-statistical-values-1">Key Statistical Values</h3>
+<ul>
+<li><strong>Degrees of Freedom (Welch’s):</strong> 190.29</li>
+<li><strong>Significance Level (alpha):</strong> 0.05</li>
+<li><strong>Critical t-values:</strong> (-1.97, 1.97)</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-18-is-there-a-true-difference-p300-t373">Slide 18: Is
+there a true difference? (P=300, T=373)</h3>
+<p>Based on the t-test analysis with an alpha level of 0.05, we assess
+whether there is a statistically significant difference between the
+measurements of Machine 1 and Machine 2 under these conditions.</p>
+<pre><code>Is there a true difference?: No</code></pre>
+</div><div class="column" style="width:50%;">
+<h3 id="conclusion-summary-1">Conclusion Summary</h3>
+<p>The p-value is greater than or equal to the significance level (alpha
+= 0.05), indicating no statistically significant difference between the
+measurements of Machine 1 and Machine 2 under these conditions.</p>
+</div>
+</div>
+</section>
+<section id="bibliography-1" class="slide level1">
+<h1>Bibliography</h1>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-carnot1824" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sadi
+Carnot. Reflections on the motive power of fire. Annals of Physics.
+1824;1:1–100.</div>
 </div>
 </div>
 </section>

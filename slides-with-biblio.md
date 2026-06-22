@@ -401,3 +401,7 @@ Is there a true difference?: No
 The p-value is greater than or equal to the significance level (alpha = 0.05), indicating no statistically significant difference between the measurements of Machine 1 and Machine 2 under these conditions.
 :::
 ::::
+
+---
+# Bibliography
+<div id="refs"></div>
