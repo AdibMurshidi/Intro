@@ -401,6 +401,90 @@ Is there a true difference?: No
 The p-value is greater than or equal to the significance level (alpha = 0.05), indicating no statistically significant difference between the measurements of Machine 1 and Machine 2 under these conditions.
 :::
 ::::
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 19: Display ANOVA Table / Pr(>F) for Pressure (P)
+This table shows the ANOVA results focusing on the effect of Pressure (P) on Machine 1's Part Resistance.
+
+```
+               sum_sq     df         F  PR(>F)
+C(Pressure) 4271.7138 2.0000 1000.4056  0.0000
+```
+:::
+
+::: {.column width="50%"}
+### Text evaluation: Is this factor, Pressure (P) significant for Machine 1?
+
+```
+Is Pressure (P) significant?: Yes
+```
+### Conclusion Summary
+The p-value (Pr(>F)) for Pressure (P) is 0.0000.
+As this is less than the significance level (alpha = 0.05), it indicates a statistically significant effect.
+:::
+::::
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 20: Display ANOVA Table / Pr(>F) for Temperature (T)
+This table shows the ANOVA results focusing on the effect of Temperature (T) on Machine 1's Part Resistance.
+
+```
+                  sum_sq     df        F  PR(>F)
+C(Temperature) 2148.9751 2.0000 503.2750  0.0000
+```
+:::
+
+::: {.column width="50%"}
+### Text evaluation: Is this factor, Temperature (T) significant for Machine 1?
+
+```
+Is Temperature (T) significant?: Yes
+```
+### Conclusion Summary
+The p-value (Pr(>F)) for Temperature (T) is 0.0000.
+As this is less than the significance level (alpha = 0.05), it indicates a statistically significant effect.
+:::
+::::
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 21: Display ANOVA Table / Pr(>F) for Pressure*Temperature (P*T) Interaction
+This table shows the ANOVA results focusing on the effect of Pressure*Temperature (P*T) Interaction on Machine 1's Part Resistance.
+
+```
+                             sum_sq     df       F  PR(>F)
+C(Pressure):C(Temperature) 429.9690 4.0000 50.3479  0.0000
+```
+:::
+
+::: {.column width="50%"}
+### Text evaluation: Is this factor, Pressure*Temperature (P*T) Interaction significant for Machine 1?
+
+```
+Is Pressure*Temperature (P*T) Interaction significant?: Yes
+```
+### Conclusion Summary
+The p-value (Pr(>F)) for Pressure*Temperature (P*T) Interaction is 0.0000.
+As this is less than the significance level (alpha = 0.05), it indicates a statistically significant effect.
+:::
+::::
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22: Interaction Plot for Machine 1 Resistance
+This interaction plot visualizes the relationship between Pressure and Temperature on Machine 1's Part Resistance. It helps to understand if the effect of one factor depends on the level of the other factor, showing how the mean response changes across different factor combinations.
+:::
+
+::: {.column width="50%"}
+<img src="media/pics/interaction_plot_machine1.png" width="100%" height="500px" style="border:none;">
+:::
+::::
 
 ---
 # Bibliography

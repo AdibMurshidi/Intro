@@ -930,6 +930,93 @@ measurements of Machine 1 and Machine 2 under these conditions.</p>
 </div>
 </div>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-19-display-anova-table-prf-for-pressure-p">Slide 19:
+Display ANOVA Table / Pr(&gt;F) for Pressure (P)</h3>
+<p>This table shows the ANOVA results focusing on the effect of Pressure
+(P) on Machine 1’s Part Resistance.</p>
+<pre><code>               sum_sq     df         F  PR(&gt;F)
+C(Pressure) 4271.7138 2.0000 1000.4056  0.0000</code></pre>
+</div><div class="column" style="width:50%;">
+<h3
+id="text-evaluation-is-this-factor-pressure-p-significant-for-machine-1">Text
+evaluation: Is this factor, Pressure (P) significant for Machine 1?</h3>
+<pre><code>Is Pressure (P) significant?: Yes</code></pre>
+<h3 id="conclusion-summary-2">Conclusion Summary</h3>
+<p>The p-value (Pr(&gt;F)) for Pressure (P) is 0.0000. As this is less
+than the significance level (alpha = 0.05), it indicates a statistically
+significant effect.</p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-20-display-anova-table-prf-for-temperature-t">Slide 20:
+Display ANOVA Table / Pr(&gt;F) for Temperature (T)</h3>
+<p>This table shows the ANOVA results focusing on the effect of
+Temperature (T) on Machine 1’s Part Resistance.</p>
+<pre><code>                  sum_sq     df        F  PR(&gt;F)
+C(Temperature) 2148.9751 2.0000 503.2750  0.0000</code></pre>
+</div><div class="column" style="width:50%;">
+<h3
+id="text-evaluation-is-this-factor-temperature-t-significant-for-machine-1">Text
+evaluation: Is this factor, Temperature (T) significant for Machine
+1?</h3>
+<pre><code>Is Temperature (T) significant?: Yes</code></pre>
+<h3 id="conclusion-summary-3">Conclusion Summary</h3>
+<p>The p-value (Pr(&gt;F)) for Temperature (T) is 0.0000. As this is
+less than the significance level (alpha = 0.05), it indicates a
+statistically significant effect.</p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3
+id="slide-21-display-anova-table-prf-for-pressuretemperature-pt-interaction">Slide
+21: Display ANOVA Table / Pr(&gt;F) for Pressure<em>Temperature
+(P</em>T) Interaction</h3>
+<p>This table shows the ANOVA results focusing on the effect of
+Pressure<em>Temperature (P</em>T) Interaction on Machine 1’s Part
+Resistance.</p>
+<pre><code>                             sum_sq     df       F  PR(&gt;F)
+C(Pressure):C(Temperature) 429.9690 4.0000 50.3479  0.0000</code></pre>
+</div><div class="column" style="width:50%;">
+<h3
+id="text-evaluation-is-this-factor-pressuretemperature-pt-interaction-significant-for-machine-1">Text
+evaluation: Is this factor, Pressure<em>Temperature (P</em>T)
+Interaction significant for Machine 1?</h3>
+<pre><code>Is Pressure*Temperature (P*T) Interaction significant?: Yes</code></pre>
+<h3 id="conclusion-summary-4">Conclusion Summary</h3>
+<p>The p-value (Pr(&gt;F)) for Pressure<em>Temperature (P</em>T)
+Interaction is 0.0000. As this is less than the significance level
+(alpha = 0.05), it indicates a statistically significant effect.</p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-22-interaction-plot-for-machine-1-resistance">Slide 22:
+Interaction Plot for Machine 1 Resistance</h3>
+<p>This interaction plot visualizes the relationship between Pressure
+and Temperature on Machine 1’s Part Resistance. It helps to understand
+if the effect of one factor depends on the level of the other factor,
+showing how the mean response changes across different factor
+combinations.</p>
+</div><div class="column" style="width:50%;">
+<p><img src="media/pics/interaction_plot_machine1.png" width="100%" height="500px" style="border:none;"></p>
+</div>
+</div>
+</section>
 <section id="bibliography-1" class="slide level1">
 <h1>Bibliography</h1>
 <div id="refs" class="references csl-bib-body" role="list">
